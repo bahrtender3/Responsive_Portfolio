@@ -1,0 +1,336 @@
+#box {
+	height: 100px;
+	width: 100px;
+	margin:auto;
+}
+
+.GeorgiaFont {
+
+	font-family: Georgia, Times, 'Times New Roman', serif;
+
+	
+}
+
+.ArialFont {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+body {
+	background-image: url("../images/dark-triangles/dark-triangles.png");
+	margin: 0px 0px;
+	background-color: black;
+
+}
+
+
+.Headerwrap {
+
+	background-color: white;
+	height: 100px;
+
+
+}
+
+.Contentwrap {
+	background-color: none; 
+	margin: 0% 10%;
+	height: 960px;
+	
+}
+
+.Footerwrap {
+	background-color: #666666;
+	height: 100px;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+	border-top-style: solid;
+	display: block;
+
+}
+
+.Name {
+	background-color: #4aaaa5;
+	height: 37%;
+	width: 220px;
+	margin: 0 0 0 10%;
+	padding: 31.5px;
+	text-align: center;
+	Float: left;
+	color: white;
+
+
+}
+
+.Navbutton_Wrap {
+	width: 275px;
+	float: right;
+	background-color: white;
+	padding: 30px 30px 10px 30px;
+	margin-right: 10%
+
+}
+
+.Navbuttons {
+	box-sizing: border-box;
+	background-color: white;
+	float: left;
+	width: 33.333%;
+	text-align: center;
+	color: gray;
+	font-size: 18px;
+	
+
+
+}
+
+.Nav_Right_Border {
+	border-right: thin solid #666;
+}
+
+.Left_Content {
+	float: left;
+	width: 650px;
+	background-color: white;
+	margin-top: 5%;
+
+	
+}
+
+.Right_Content {
+	float: left;
+	width: 270px;
+	background-color: white;
+	margin-top: 5%;
+	margin-left: 5%;
+
+}
+
+.Left_Content_Header {
+	margin: 5% 5% 0 5%;
+	padding-bottom: 5%;
+	color: #4aaaa5;
+	border-bottom: medium solid #666666;
+
+}
+
+#pic_of_me {
+	height: auto;
+	width: 275px; 
+	float: left;
+	padding-right: 5%
+}
+
+#About_Me_Section {
+	padding: 5%;
+}
+
+.First_Paragraph {
+
+	margin-top: 0;
+}
+
+.Connect_With_Me_Header {
+	margin: 5% 5% 0 5%;
+	padding-bottom: 5%;
+	color: #4aaaa5;
+	border-bottom: medium solid #666666;
+	text-align: center;
+}
+
+.Image_Link_Container {
+	padding: 5%;
+}
+
+.Social_Links {
+	width: 32%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.Footer_Content{
+	color: lightgray;
+	margin: 0 40%;
+	padding-top: 1%;
+
+}
+
+.Copywright_Statement {
+	color: lightgray;
+	text-align: center;
+
+}
+
+.Portfolio-Images {
+
+	background-color: none;
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url("http://lorempixel.com/400/200/technics");
+}
+
+.Portfolio-Wrapper {
+
+	
+	width: 100%;
+	float: left;
+	margin-bottom: 5%;
+	
+}
+ .Portfolio_Image_Heading {
+
+ 	text-align: center;
+ 	background: rgba(74, 170, 165, .75);
+	margin-top: 45%;
+ 	padding: 5% 10%;
+ }
+
+
+@media screen and (max-width: 640px) {
+
+	body{
+		
+		margin: 0;
+	}
+
+	.Contentwrap {
+		margin: 5%;
+	}
+
+	
+
+	.Left_Content {
+	
+	width: 100%;
+
+
+	}
+
+	#pic_of_me {
+		float: none;
+	}
+
+	.Navbutton_Wrap {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+
+
+	.Name {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+
+	}
+	.Navbuttons {
+
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+	}
+	.Right_Content {
+		margin-left: .2%;
+
+	}
+
+	.Portfolio-Wrapper {
+		float: none;
+	}
+
+	.Last_Portfolio {
+
+		margin-bottom: 5%;
+	}
+
+	.Portfolio-Images {
+		width: 40%;
+	}
+
+
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+	
+
+	.Navbutton_Wrap {
+		margin-right: 0;
+	}
+
+	.Name {
+
+		margin-left: 2.5%;
+	}
+
+	.Contentwrap {
+
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		height: 1070px;
+
+	}
+
+	.Left_Content {
+
+		width: 100%;
+	}
+
+	.Right_Content {
+		margin-left: .2%;
+
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+	
+
+	.Navbutton_Wrap {
+		margin-right: 5%;
+	}
+
+	.Left_Content {
+
+
+		width: 55%;
+	}
+
+	.Right_Content {
+
+		width: 40%;
+	}
+
+	.Portfolio-Images {
+		width: 90%;
+	}
+
+	.Contentwrap {
+
+		height: 1500px;
+	}
+
+}
+
+@media screen and (min-width: 981px) and (max-width: 1228px) {
+
+	.Right_Content {
+
+		margin-left: 0;
+	}
+
+	.Left_Content {
+
+		margin-right: 5%;
+	}
+
+
+	.Contentwrap {
+
+		height: 1050px;
+	}
+}
